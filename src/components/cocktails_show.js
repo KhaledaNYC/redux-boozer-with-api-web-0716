@@ -10,7 +10,7 @@ function CocktailsShow (props) {
 
   return (
     <div>
-      <h2>{cocktail.name}</h2>
+      <h2>🍹{cocktail.name}</h2>
       <p>{cocktail.description}</p>
       <p>{cocktail.instructions}</p>
       <ul>

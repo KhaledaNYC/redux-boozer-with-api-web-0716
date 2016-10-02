@@ -5,7 +5,7 @@ function CocktailsIndex (props) {
   const renderCocktails = (cocktail) => {
     return (<li key={cocktail.id}>
       <Link to={`/cocktails/${cocktail.id}`}>
-        {cocktail.name}
+        🍹{cocktail.name}
       </Link>
     </li>)
   }
